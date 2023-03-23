@@ -16,9 +16,8 @@ basic.forever(function () {
         min = aktuální_teplota
     } else if (aktuální_teplota > max) {
         max = aktuální_teplota
-    } else {
-        basic.pause(1000)
-        basic.clearScreen()
-        basic.pause(1000)
     }
+    basic.pause(1000)
+    basic.clearScreen()
+    basic.pause(1000)
 })
