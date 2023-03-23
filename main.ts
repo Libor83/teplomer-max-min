@@ -14,7 +14,8 @@ basic.forever(function () {
     aktuální_teplota = input.temperature()
     if (aktuální_teplota < min) {
         min = aktuální_teplota
-    } else if (aktuální_teplota > max) {
+    }
+    if (aktuální_teplota > max) {
         max = aktuální_teplota
     }
     basic.pause(1000)
